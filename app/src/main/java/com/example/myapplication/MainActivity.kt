@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private var canAddOperation = false
+
     private var canAddDecimal = true
 
     private lateinit var btn_1: Button
@@ -96,40 +97,40 @@ class MainActivity : AppCompatActivity() {
 
         btn_2.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "0"
+            text1.text = data + "2"
         }
 
         btn_3.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "1"
+            text1.text = data + "3"
         }
 
         btn_4.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "0"
+            text1.text = data + "4"
         }
 
         btn_5.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "1"
+            text1.text = data + "5"
         }
         btn_6.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "0"
+            text1.text = data + "6"
         }
 
         btn_7.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "1"
+            text1.text = data + "7"
         }
         btn_8.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "0"
+            text1.text = data + "8"
         }
 
         btn_9.setOnClickListener {
             data = text1.text.toString()
-            text1.text = data + "1"
+            text1.text = data + "9"
         }
 
         btn_Clear.setOnClickListener {
@@ -157,10 +158,6 @@ class MainActivity : AppCompatActivity() {
             text1.text = data + "%"
         }
         btn_kali.setOnClickListener {
-            data = text1.text.toString()
-            text1.text = data + "×"
-        }
-        btn_koma.setOnClickListener {
             data = text1.text.toString()
             text1.text = data + "×"
         }
